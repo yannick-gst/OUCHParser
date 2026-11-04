@@ -125,8 +125,7 @@ The OUCH protocol messages in the capture consist of following message types. On
 | 26  | 4   | Unsigned Integer | Decrement Shares |
 | 30  | 1   | Char | Reason |
 
-## Building
-To build, simply run `make`.
-
-## Run
-Running `./ouch` will run the built program against thee sample packets file included in thee repository.
+## Building and Running
+To build, simply run `make`. This will produce an executable named `ouch`.
+Running `./ouch` will run the built program against the sample packets file in the repository.
+To remove build artifacts, run `make clean`.
