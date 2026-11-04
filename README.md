@@ -124,3 +124,9 @@ The OUCH protocol messages in the capture consist of following message types. On
 | 12  | 14  | Text | Order Token |
 | 26  | 4   | Unsigned Integer | Decrement Shares |
 | 30  | 1   | Char | Reason |
+
+## Building
+To build, simply run `make`.
+
+## Run
+Running `./ouch` will run the built program against thee sample packets file included in thee repository.
